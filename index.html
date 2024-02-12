@@ -4,44 +4,66 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Connecticut College Men's D2 Club Ice Hockey Team</title>
+    <style type="text/css">
+        .stats {background-color:#cfd0d0;width:40%;padding:10px;text-align:center;}
+        .pics {width:50%;display:block;margin-left:auto;margin-right:auto;}
+        .labels {background-color:rgb(79, 210, 242);height:70px;width:40%;text-align:center;padding:10px;}
+    </style>
 </head>
 <body>
-    <h1 style="color:rgb(0, 21, 128);text-align:center;">Connecticut College Men's Club Ice Hockey Team</h1>
+    <!--Linked Images at the top-->
+    <div id="ACHA" style="float:left;">
+        <img src="ACHA.jpg" width="300" height="150" usemap="ACHAhitbox"> <br>
+    </div>
+    <map name="ACHAhitbox">
+        <area shape="rect" coords="0,0,300,150 " href="https://www.duncancraine.com" />
+    </map>
+    <div id="YouTube" style="float:center;">
+        <img src="YouTube.png" width="200" height="150" usemap="YThitbox"> <br>
+    </div>
+    <map name="YThitbox">
+        <area shape="rect" coords="25,75,50, " href="https://www.duncancraine.com" />
+    </map>
+    <br>
+    <!---------------------------->
+
+    <p style="font-size:40px;font-family:Garamond;color:rgb(0, 21, 128);text-align:center;"><b><u>Connecticut College
+        <br> Men's Club Ice Hockey Team</u></b></p>
     <h3 style="color:rgb(79, 210, 242);text-align:center;">ACHA Division 2 (NECHA American South)</h3>
     <!-- Images -->
-    <div id="TeamPic" style="width:50%;display:block;margin-left:auto;margin-right:auto;">
+    <div id="TeamPic" class = "pics">
         <img src="QuahogCup.JPG" width="100%" height="100%"> <br>
     </div>
-    <h2 style="text-align:center;color:rgb(0, 21, 128);">Current Roster</h2>
-    <div id="RosterImage" style="width:50%;display:block;margin-left:auto;margin-right:auto;">
+    <h1 style="color:rgb(0, 21, 128);text-align:center;">Current Roster</h1>
+    <div id="RosterImage" class = "pics">
         <img src="Roster.PNG"  width="100%" height="100%"> <br>
     </div>
     <!-- Images -->
     
     <div id="container" style="width:75%;margin:auto;">
-        <div style="background-color:rgb(79, 210, 242);height:70px;width:40%;float:left;text-align:center;padding:5px;">
+        <div class = "labels" style = "float:left">
             <h2 style="color:rgb(0, 21, 128)">Top 10 in Points</h2>
         </div>
 
-        <div style="background-color:rgb(79, 210, 242);height:70px;width:40%;float:right;text-align:center;padding:5px;">
+        <div class = "labels" style = "float:right">
             <h2 style="color:rgb(0, 21, 128)">Results (Record: 15-7-1)</h2>
         </div>
 
-        <div style="background-color:#cfd0d0;height:auto;width:40%;float:left;text-align:center;padding:5px;">
-            <table id="stats" style="width:80%;float:center;">
+        <div class = "stats" style="float:left;">
+            <table id="stats" style="width:80%;float:center;margin:auto;">
                 <tr>
-                      <th width="10%">Pos</th>
-                      <th width="10%">#</th>
+                    <th width="10%">Pos</th>
+                    <th width="10%">#</th>
                     <th width="40%">Name</th>
                     <th width="10%">GP</th>
                     <th width="10%">G</th>
                     <th width="10%">A</th>
-                      <th width="10%">PTS</th>
+                    <th width="10%">PTS</th>
                   </tr>
                   <tr>
                     <td>F</td>
                     <td>14</td>
-                      <td>Will Conway</td>
+                    <td>Will Conway</td>
                     <td>23</td>
                     <td>18</td>
                     <td>26</td>
@@ -120,10 +142,18 @@
                     <td>14</td>
                 </tr>
                 </table>   <br><br>
+                <div id="PersonalImage">
+                    <p>Created by Duncan Craine <br></p>
+                    <p>More projects created by me:</p>
+                    <img src="Website Logo.png" width="100" height="100" usemap="PIhitbox"> <br>
+                </div>
+                <map name="PIhitbox">
+                    <area shape="circle" coords="50,50,50" href="https://www.duncancraine.com" />
+                </map>
         </div>
 
-        <div style="background-color:#cfd0d0;width:40%;float:right;text-align:center;padding:5px;">
-            <table id="schedule" style="width:80%;float:center;">
+        <div class = "stats" style="float:right;">
+            <table id="schedule" style="width:80%;float:center;margin:auto;">
                 <tr>
                     <th>Opponent</th>
                     <th>W/L</th>
@@ -270,10 +300,6 @@
             </table>   <br><br>
         </div>
     </div>
-    
 
-
-    
-    
 </body>
 </html>
